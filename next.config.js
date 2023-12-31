@@ -1,10 +1,6 @@
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 module.exports = {
-  // Note: no `future` key here
   webpack5: false,
-}
-
-module.exports = {
   webpack: (config, {
     // eslint-disable-next-line no-unused-vars
     buildId, dev, isServer, defaultLoaders,
